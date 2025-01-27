@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "P:\\College\\PROG 2070\\Assignment2\\Assignment2_Sec7-1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E85C7688-AD51-433E-A755-7A98F035C002}|Assignment2_Sec7-1.csproj|p:\\college\\prog 2070\\assignment2\\assignment2_sec7-1\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E85C7688-AD51-433E-A755-7A98F035C002}|Assignment2_Sec7-1.csproj|solutionrelative:product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E85C7688-AD51-433E-A755-7A98F035C002}|Assignment2_Sec7-1.csproj|p:\\college\\prog 2070\\assignment2\\assignment2_sec7-1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E85C7688-AD51-433E-A755-7A98F035C002}|Assignment2_Sec7-1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -23,12 +27,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Product.cs",
+              "DocumentMoniker": "P:\\College\\PROG 2070\\Assignment2\\Assignment2_Sec7-1\\Product.cs",
+              "RelativeDocumentMoniker": "Product.cs",
+              "ToolTip": "P:\\College\\PROG 2070\\Assignment2\\Assignment2_Sec7-1\\Product.cs",
+              "RelativeToolTip": "Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-27T16:09:06.527Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "P:\\College\\PROG 2070\\Assignment2\\Assignment2_Sec7-1\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "P:\\College\\PROG 2070\\Assignment2\\Assignment2_Sec7-1\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-27T15:40:27.823Z",
               "EditorCaption": ""
