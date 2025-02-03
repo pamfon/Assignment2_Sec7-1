@@ -22,14 +22,14 @@ namespace Assignment2_Sec7_1
             Stock = stock;
         }
 
-        public void IncreaseStock()
+        public void IncreaseStock(int quantityToIncrease)
         {
-            Stock++;
+            Stock = Stock + quantityToIncrease;
         }
 
-        public void DecreaseStock()
+        public void DecreaseStock(int quantityToDecrease)
         {
-            if (Stock > 0) { Stock--; }
+            Stock = Stock - quantityToDecrease;
         }
     }
 }
