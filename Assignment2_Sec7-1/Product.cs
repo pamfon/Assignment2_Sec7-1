@@ -22,14 +22,56 @@ namespace Assignment2_Sec7_1
             Stock = stock;
         }
 
-        public void IncreaseStock(int quantityToIncrease)
-        {
-            Stock = Stock + quantityToIncrease;
-        }
+		public bool ProductNameValidation(string ProductName)
+		{
+			if (string.IsNullOrWhiteSpace(ProductName))
+			{
+				return false;
+			}
 
-        public void DecreaseStock(int quantityToDecrease)
-        {
-            Stock = Stock - quantityToDecrease;
-        }
-    }
+			return true;
+		}
+
+		#region ChangeStock
+		public bool IncreaseStock(int amount)
+		{
+			if (amount < 1)
+			{
+				return false;
+			}
+
+			Stock += amount;
+			return true;
+		}
+		
+
+		public bool DecreaseStock(int amount)
+		{
+			if (amount < 1 || Stock < 0)
+			{
+				return false;
+			}
+
+			Stock -= amount;
+			return true;
+		}
+		#endregion
+
+		#region InRangeTests
+		public bool IsPriceInRange()
+		{
+			return Price >= 7 && Price <= 7000;
+		}
+
+		public bool IsProductIdInRange()
+		{
+			return ProductID >= 7 && ProductID <= 70000;
+		}
+
+		public bool IsStockInRange()
+		{
+			return Stock >= 7 && Stock <= 700000;
+		}
+		#endregion
+	}
 }
